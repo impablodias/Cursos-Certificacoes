@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'xilosa';
+    src: url(fonte/xilosa.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte1: "Sriracha", cursive, Arial, Helvetica, sans-serif;
+    --fonte2: 'xilosa', Arial, Helvetica, sans-serif;
+    --fonte3: arial, helvetica, sans-serif;
+}
+
+body {
+    min-height: 100%; 
+
+}
+
+header {
+    background-color: #A86432;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 100px;
+    color: #F5D78A;
+}
+
+header > p {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: var(--fonte3);
+    font-weight: bold;
+    color: #3A1F04;
+}
+
+a#autor {
+    color: #3A1F04;
+    text-decoration: none;
+}
+
+a#autor:hover {
+    text-decoration: underline;
+    color: #F5D78A;
+}
+
+section {
+    line-height: 200%;
+    font-family: var(--fonte1);
+    font-size: 32px;
+}
+
+section > p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: rgb(255, 255, 255);
+}
+
+section.imagem {
+    box-shadow: inset 3px 6px 3px 0px rgba(0, 0, 0, 0.223);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    width: 550px;
+    color: white;
+    background-color: rgba(72, 72, 72, 0.452);
+}
+
+section#img01{
+    background-color: rgba(164, 18, 18, 0.553);
+    background-image: url(img/pngtree-heart-circle-message-doodle-seamless-pattern-picture-image_1170343.jpg);
+    background-size: cover;
+   
+
+}
+
+section#img02{
+    background-color: black;
+    background-image: url(img/29829895-old-letter-with-vintage-handwriting-grunge-background.jpg);
+    background-size: cover;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 4px;
+}
+footer > a {
+    color: white;
+}
